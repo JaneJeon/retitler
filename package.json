@@ -1,9 +1,14 @@
 {
   "name": "retitler",
   "version": "1.0.0",
-  "description": "",
+  "description": "Clean torrent file titles",
   "author": "Jane Jeon <JaneJeon9719@gmail.com>",
   "private": true,
   "repository": "JaneJeon/retitler",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "execa": "^2.0.1",
+    "mime-types": "^2.1.24",
+    "prompts": "^2.1.0"
+  }
 }

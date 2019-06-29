@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# sets up example directory
+
+# if folder exists, empty it
+[ -d "example" ] && rm -rf example
+
+mkdir -p "example/[asdf] hello" "example/ world"
+touch "example/[asdf] hello/foo_(1280x720).mp4" "example/[asdf] hello/_this.txt" "example/ world/(12bit) bar.mkv" "example/[asdf]baz.mov" "example/[asdf] that.md" "example/.DS_Store"
