@@ -22,11 +22,14 @@ function clean(path) {
   )
     return path
 
+  // TODO: the period
+
   // clean the name - basically everything before the period
   const cleanedName = parsed.name
     .replace(/\[[^\]]+\]|\([^)]*(\dp|\dx\d|\dbit)[^)]*\)/gi, "")
     .replace(/(_|\.)/g, " ")
     .trim()
+    .replace(/\s+/g, " ")
 
   return join(parsed.dir, cleanedName + parsed.ext)
 }
