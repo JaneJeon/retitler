@@ -7,7 +7,7 @@
   "repository": "JaneJeon/retitler",
   "license": "MIT",
   "dependencies": {
-    "execa": "^3.4.0",
+    "execa": "^4.0.0",
     "mime-types": "^2.1.25",
     "prompts": "^2.3.0"
   }
